@@ -44,3 +44,4 @@ This project transforms audio into **mel-spectrograms**, feeds them into a **seq
 
 - Build a simple demo web app using Streamlit or Gradio
 ## Sample Inputs
+The sample Inputs can be found at [Images]('./Sample Log-Mel files')
