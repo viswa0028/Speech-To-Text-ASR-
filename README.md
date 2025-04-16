@@ -14,10 +14,14 @@ This project transforms audio into **mel-spectrograms**, feeds them into a **seq
 
 ---
 
+## 📖 Dataset
+The dataset at [Opensrl.org](https://www.openslr.org/12). 
+
+---
 ## 🚀 How It Works
 🎧 Audio (.wav) 
     ↓
-📸 Log-Mel Spectrogram (Image-like representation)
+📸 Log-Mel (Image-like representation)
     ↓
 🧠 Seq2Seq Model (Encoder-Decoder with attention)
     ↓
