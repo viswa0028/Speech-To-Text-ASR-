@@ -31,28 +31,12 @@ This project transforms audio into **mel-spectrograms**, feeds them into a **seq
 - **Python** & **PyTorch** (or TensorFlow, depending on your version)
 - **Librosa** for audio processing
 - **Matplotlib / PIL** for spectrogram visualization
+- **Numpy** for Data Manipulation
+- **TorchVision** for Image Processing
 - **CNN + RNN/Transformer** architecture
 - Optional: **CTC Loss / Attention** mechanism for alignment
 
 ---
-
-## 📁 Project Structure
-
-├── audio_samples/            # Input .wav files
-
-├── spectrograms/             # Generated mel-spectrograms
-
-├── models/                   # Trained model checkpoints
-
-├── utils/                    # Audio & image preprocessing scripts
-
-├── train.py                  # Model training script
-
-├── predict.py                # Inference / decoding
-
-├── requirements.txt          # All dependencies
-
-└── README.md                 # This file 😄
 ## 🤓 Future Improvements
 - Switch to Wav2Vec2 or Whisper for better performance
 
