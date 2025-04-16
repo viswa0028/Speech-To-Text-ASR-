@@ -37,13 +37,21 @@ This project transforms audio into **mel-spectrograms**, feeds them into a **seq
 ---
 
 ## 📁 Project Structure
+
 ├── audio_samples/            # Input .wav files
+
 ├── spectrograms/             # Generated mel-spectrograms
+
 ├── models/                   # Trained model checkpoints
+
 ├── utils/                    # Audio & image preprocessing scripts
+
 ├── train.py                  # Model training script
+
 ├── predict.py                # Inference / decoding
+
 ├── requirements.txt          # All dependencies
+
 └── README.md                 # This file 😄
 ## 🤓 Future Improvements
 - Switch to Wav2Vec2 or Whisper for better performance
